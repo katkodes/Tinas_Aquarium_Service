@@ -1,0 +1,86 @@
+* {box-sizing: border-box;}
+
+body {background: linear-gradient(to bottom right, #00bfff, #3366cc, #3300cc, #00bfff) no-repeat;max-width: 1600px;margin: auto;}
+header {background: #fff;width: 100%;height: 120px;margin-top: 100px;padding-bottom: 8px;}
+header h1 {color: #00bfff;text-shadow: 1px 1px #000;text-align: center;font-size: 35px;}
+#banner h2, #banner h3 {text-align: center;text-shadow: 2px 1px 1px #00bfff;}
+#banner h2 {font-family: "Sedgwick Ave Display", cursive;font-size: 28px;color: #fff;}
+header h3 {font-family: "Reenie Beanie", cursive;font-size: 28px;color: #000;text-align: center;}
+h1 {text-align: left;font-size: 30px;font-family: 'Sedgwick Ave Display', cursive;text-shadow: 1px 1px #999;}
+h2 {font-size: 28px;}
+h3 {font-size: 26px;}
+#banner {background: url(../Final/images/reef-panx.jpg);border: 1px solid white;height: 300px;width: 1600px;padding: 0;margin: 0;
+}
+#ban {font-family: "Josefin Sans", cursive;font-size: 22px;text-shadow: 1px 1px #666;background: #00bfff;margin: auto;}
+nav {width: 100%;height: 100px;color: white;position: fixed;top: 0;padding: 0;margin: 0;
+}
+
+nav li {border: 1px solid black;list-style-type: none;display: inline;padding: 10px;}
+nav a {font-family: "Reenie Beanie", cursive;font-size: 25px;}
+.dropbtn {color: white;padding: 16px;font-size: 16px;border: none;cursor: pointer;font-size: 28px;background-color: black;font-family: "Reenie Beanie", cursive;
+}
+.dropdown {position: relative;display: inline-block;}
+.dropdown-content {display: none;position: absolute;background-color: black;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: white;padding: 12px 16px;text-decoration: none;display: block;
+}
+.dropdown-content a:hover {background-color: #00bfff;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #00bfff;}
+a {color: white;font-family: "Josefin Sans", sans-serif;text-decoration: underline;}
+a:hover {background: black;color: #fff;font-size: 22px;}
+ul, ol {color: white;font-family: "Josefin Sans", sans-serif;font-size: 18px;}
+article {
+float: left;padding-left: 105px;padding-right: 10px;width: 65%;height: 650px;overflow: auto;margin: 0px;border-right: 1px solid white;}
+aside {
+float: right;width: 33%;height: 650px;overflow: auto;margin-left: 15px;padding-left: 5px;}
+#container {width: 100%;padding: 15px;}
+p {color: white;font-family: "Josefin Sans", sans-serif;font-size: 16px;}
+article h2, article h3 {color: white;text-align: left;font-family: "Reenie Beanie", sans-serif;}
+aside h2, aside h3 {color: white;text-align: left;font-family: "Reenie Beanie", sans-serif;}
+article img {height: 200px;width: 200px;}
+div.gallery {margin: 5px;border: 1px solid white;width: 182px;display: inline;float: left;}
+div.gallery img {height: 125px;width: 180px;}
+div.gallery:hover {border: 1px solid #000;}
+div.desc {padding: 15px;text-align: center;color: white;font-family: "Sedgwick Ave Display", cursive;}
+
+footer {margin-top: 680px;margin-left: 30px;width: 100%;
+}
+form {font-family: "Josefin Sans", sans-serif;font-size: 16px;color: white;}
+input[type=text], textarea {width: 80%;padding: 5px;margin: 2px;}
+input, textarea {box-sizing: border-box;border: 2px solid #00bfff;border-radius: 2px;background-color: rgb(255,255,255);
+}
+textarea {resize: none;}
+input[type=submit] {width: 20%;color: white;background-color: #00bfff;cursor: pointer;text-decoration: none;padding:10px 12px;text-shadow: 2px 1px #000;box-shadow: 1px 1px #000;}
+select {width:40%;padding: 5px;margin: 2px;border: 2px solid #00bfff;border-radius: 2px;background-color: rgb(255,255,255);}
+select:focus {outline-style: double;outline-color: black;background: #00bfff;}
+option:focus {background: #00bfff;outline-style: double;outline-color: black;}
+input:focus {background: #00bfff;outline-style: double;outline-color: black;
+}
+input[checkbox]:focus {background: #00bfff;outline-style: double;outline-color: black;}
+input[submit]:focus {
+outline-style: double;outline-color: black;}
+textarea:focus {background: #00bfff;outline-style: double;outline-color: black;}
+a:focus {background: #00bfff;outline-style: double;outline-color: black;}
+button.accordion {    background-color: #000;    color: #fff;    cursor: pointer;    padding: 18px;    width: 100%;    border: none;    text-align: left;    outline: none;    font-size: 15px;    transition: 0.4s;font-family: "Josefin Sans", sans-serif;}
+button.accordion.active, button.accordion:hover, button.accordion:focus {    background-color: #00bfff;}
+div.panel {    padding: 0 18px;    background-color: #3366cc;    max-height: 0;    overflow: hidden;    transition: max-height 0.2s ease-out;}
+iframe:focus {outline-style: double;outline-color: #00bfff;background: #00bfff;}
+@media only screen and (min-width:320px) and (max-width:1024px) {
+body {max-width: 100%;}
+header {margin-top: 100px;
+}
+#banner {margin: 0;height: 175px;
+}
+content {float: none;margin-left: 2px;margin-right: 2px;margin-top: auto;margin-bottom: auto;border: none;max-width: 100%;}
+aside {float: none;margin-left: 2px;margin-right: 2px;margin-top: auto;margin-bottom: auto;border: none;padding: 0;min-width: 320px;max-width: 480px;overflow-x: hidden;
+}
+img {max-width: 100%;}
+
+footer {margin: auto;}
+}
+
+
+
+
+
+
